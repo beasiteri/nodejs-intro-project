@@ -9,10 +9,8 @@ const app = express();
 
 // Set the views directory
 app.set('views', path.join(__dirname, 'views'));
-
 // Set the view engine to be mustache
 app.set('view engine', 'mustache');
-
 // Specify the hoggle middleware for the express configuration
 app.engine('mustache', hoganMiddleware.__express);
 
