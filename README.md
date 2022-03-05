@@ -43,9 +43,9 @@ To start the project you can use Project Generator or you can start building you
     **$ sudo kill -9 $(sudo lsof -t -i:3000)**  
   Or add to your .bashrc this code and use $ findandkill 3000 in terminal:  
   ex. to kill a process by giving a port (findandkill 3000)  
-    **function findandkill() {  
-    lsof -i TCP:$1 | grep LISTEN | awk '{print $2}' | xargs kill -9  
-    }**
+        **function findandkill() {**  
+        **lsof -i TCP:$1 | grep LISTEN | awk '{print $2}' | xargs kill -9**  
+        **}**
 - You can add different response types: string (raw data), json object, HTML content.
 - Use Templating Engine (Ejs, Handlebars, Jade, Mustache or Pug) to render html pages - you can inject data to HTML templates and render data 
   dinamically. Create a views folder in project folder and add a home.mustache file. 
