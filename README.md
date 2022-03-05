@@ -9,17 +9,17 @@ To start the project you can use Project Generator or you can start building you
 
 ## Build your project using Project Generator - turbo CLI
 
-- In Terminal install turbo CLI:
+- In Terminal install turbo CLI:  
     **$ npm install turbo-cli -g**
-- Check the turbo version: 
+- Check the turbo version:   
     **$ turbo version**
-- Create a new project:
+- Create a new project:  
     **$ turbo new sample-project**
-- Go to the newly created project folder:
+- Go to the newly created project folder:  
     **$ cd sample-project**
-- Run this command to install all the dependencies:
+- Run this command to install all the dependencies:  
     **$ npm install**
-- Run turbo dev server:
+- Run turbo dev server:  
     **$ turbo devserver**
 - Open http://localhost:3000 in a browser
 
