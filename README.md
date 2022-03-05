@@ -41,5 +41,5 @@ In index.js file import path and set the views folder path.
 
 9. Create a public folder for static assets (css, ja, images) and set the path to it in index.js
 
-10. Create a route folder and move all http request from index.js  
+10. Create a routes folder and move all http request from index.js  
 
