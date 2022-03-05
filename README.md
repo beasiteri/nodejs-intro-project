@@ -55,4 +55,7 @@ To start the project you can use Project Generator or you can start building you
     **$ npm install hogan-middleware --save**
 - Create a public folder for static assets (css, ja, images) and set the path to it in index.js.
 - Create a 'routes' folder and move all http request from index.js.
+- Install nodemon - keeps running the server whike you are editing the files, you don't have to keep restarting your server.  
+    **$ npm install nodemon -g**
+    **$ nodemon**
 

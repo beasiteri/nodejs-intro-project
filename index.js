@@ -7,6 +7,10 @@ const indexRouter = require('./routes/index');
 
 const app = express();
 
+app.use(express.urlencoded({ extended: false }));
+// parse application/json
+app.use(express.json());
+
 // Set the views directory
 app.set('views', path.join(__dirname, 'views'));
 // Set the view engine to be mustache
