@@ -1,5 +1,7 @@
 # nodejs-intro-project
-Intro in Nodejs and Express
+Intro in Nodejs and Express - is a Udemy course that helped me to understand better how Nodejs and Express work.
+Udemy course link:
+https://www.udemy.com/course/intro-to-node-js-express/
 
 Use Terminal:
 1. Make sure you have Nodejs (LTS version) installed on your machine. For this check node and npm (package manager for Nodejs) version in your terminal: 
