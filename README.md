@@ -9,8 +9,8 @@ To start the project you can use Project Generator or you can start building you
 
 ## Build your project using Project Generator - turbo CLI
 
-- In Terminal install turbo CLI
-**$ npm install turbo-cli -g**
+- In Terminal install turbo CLI:
+    **$ npm install turbo-cli -g**
 - Check the turbo version
 **$ turbo version**
 - Create a new project
